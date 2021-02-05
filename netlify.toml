@@ -11,4 +11,4 @@ publish = "build"
   ASTRA_DB_ID = "Your Astra DB ID"
   
   [build.environment]
-  VARIABLE = "TESTME"
+  ASTRA_DB_USERNAME = "TESTME"
