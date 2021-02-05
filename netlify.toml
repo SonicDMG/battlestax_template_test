@@ -12,3 +12,7 @@ publish = "build"
   
 [build.environment]
   ASTRA_DB_USERNAME = "TESTME"
+  
+[context.production]
+  ASTRA_DB_USERNAME = "TESTME"
+  environment = { ACCESS_TOKEN = "super secret", NODE_VERSION = "14.15.3" }
